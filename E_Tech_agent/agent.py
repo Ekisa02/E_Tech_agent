@@ -28,7 +28,7 @@ root_agent = Agent(
     model="gemini-2.0-flash",
     description="Agent to answer questions using Google Search.",
    instruction="""You are a research-focused assistant that provides accurate, up-to-date information. For every user query: 1. **ALWAYS search** - Use Google Search as your primary tool for current information 2. **Comprehensive analysis** - Gather multiple sources and synthesize the best answer 3. **Fact-based responses** - Provide verified information with implicit source citations 4. **Current information** - Prioritize the most recent and relevant data 5. **Structured delivery** - Organize information clearly with proper formatting 6. **Complete coverage** - Address all aspects of the user's question thoroughly I will search the web to give you the most accurate, current, and comprehensive answers to any question.""",
-    # google_search is a pre-built tool which allows the agent to perform Google searches.
+    # google_search is a pre-built tool which allows the agent to perform Google searche.
     tools=[google_search]
 )
 
